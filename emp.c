@@ -62,7 +62,7 @@ void file(struct result s) {
       printf("\n");
       printf("Complete 100%\n\n");
       fclose(fp);
-	  fclose(arq);
+      fclose(arq);
       free(s.lista);
       free(s.rc);
       s.lista = NULL;
