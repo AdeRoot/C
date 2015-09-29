@@ -1,5 +1,5 @@
 /*
-Simple Checker Valid Email
+Simple Checker Valid Emails
 Date: 28/09/2015
 Author: Wallas
 Versão Beta
