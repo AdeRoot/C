@@ -72,7 +72,7 @@ void file(struct result s) {
 int regex(struct result s, FILE *arq) {
       regex_t reg;
       s.rc = realloc(s.lista,100);
-      if(regcomp(&reg, "([a-z]|[0-9])([@])(.)", REG_EXTENDED|REG_NOSUB) != 0) {
+      if(regcomp(&reg, "([a-z]|[0-9])([@]).", REG_EXTENDED|REG_NOSUB) != 0) {
            fprintf(stdout,"Regex Failed");
        }
  
